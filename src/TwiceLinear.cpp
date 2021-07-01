@@ -25,14 +25,9 @@ int dblLinear(int n){
 }
 
 int main(){
-	//int n = 10;
 	std::cout << dblLinear(10) << std::endl;
 	std::cout << dblLinear(20) << std::endl;
 	std::cout << dblLinear(30) << std::endl;
 	std::cout << dblLinear(50) << std::endl;
-	/*auto print = [](const int& n) { std::cout << " " << n; };
-	auto ans = dblLinear(n);
-	std::for_each(ans.begin(), ans.end(), print);
-	std::cout << std::endl;*/
 	return 0;
 }
